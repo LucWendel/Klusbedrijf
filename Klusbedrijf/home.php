@@ -15,11 +15,17 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
      </head>
 
      <body>
-          <div id="mySidebar" class="sidebar">
-               <a href="#"><i class="material-icons">account_box</i><span class="icon-text">gebruikers</a><br>
-               <a href="klussen/klussen.php"><i class="material-icons">gavel</i><span class="icon-text"></span>klussen</a></a><br>
-               <a href="logout.php"><i class="material-icons">logout</i><span class="icon-text"></span>logout</a>
-          </div>
+          <header>
+               <div id="mySidebar" class="sidebar">
+                    <a href="users/users.php"><i class="material-icons">account_box</i><span class="icon-text">gebruikers</a><br>
+                    <a href="klussen/klussen.php"><i class="material-icons">gavel</i><span class="icon-text"></span>klussen</a></a><br>
+                    <a href="logout.php"><i class="material-icons">logout</i><span class="icon-text"></span>uit loggen</a>
+               </div>
+          </header>
+
+          <main>
+               <h1>Hallo, <?php echo $_SESSION['name']; ?></h1>
+          </main>
      </body>
 
      </html>
