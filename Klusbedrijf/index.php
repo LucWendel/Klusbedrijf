@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,11 +11,11 @@
      	<?php if (isset($_GET['error'])) { ?>
      		<p class="error"><?php echo $_GET['error']; ?></p>
      	<?php } ?>
-     	<label>Naam</label>
-     	<input type="text" name="uname" placeholder="Hier uw naam ..."><br>
+     	<label>User Name</label>
+     	<input type="text" name="uname" placeholder="User Name"><br>
 
-     	<label>Wachtwoord</label>
-     	<input type="password" name="password" placeholder="Hier uw wachtwoord ..."><br>
+     	<label>User Name</label>
+     	<input type="password" name="password" placeholder="Password"><br>
 
      	<button type="submit">Login</button>
      </form>
