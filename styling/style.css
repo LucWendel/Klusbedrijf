@@ -61,3 +61,11 @@ main .sidebar {
     font-size: 18px;
   }
 }
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  width: 20%;
+  height: 40%;
+}
