@@ -94,6 +94,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
     <?php endforeach; ?>
 </tbody>
 </table>
+     <a href="nieuweklus.php?id=<?php echo $hero['id'] ?>">nieuwe klus</a>
           </main>
      </body>
 
